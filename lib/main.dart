@@ -9,8 +9,11 @@ void main() {
         title: Text('i am rich'),
         backgroundColor: Colors.blueGrey[800],
       ),
-          body: Image(
-            image: NetworkImage('https://github.com/square/picasso/blob/master/website/static/sample.png'),
+          body: Center(
+            child: Image(
+
+              image: NetworkImage('https://github.com/square/picasso/blob/master/website/static/sample.png'),
+            ),
           ),
     ),
     ),

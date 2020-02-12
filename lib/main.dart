@@ -10,9 +10,9 @@ void main() {
         backgroundColor: Colors.blueGrey[800],
       ),
           body: Center(
-            child: Image(
-
-              image: NetworkImage('https://github.com/square/picasso/blob/master/website/static/sample.png'),
+            child:
+            Image(
+              image: NetworkImage('http://pngimg.com/uploads/diamond/diamond_PNG6702.png'),
             ),
           ),
     ),

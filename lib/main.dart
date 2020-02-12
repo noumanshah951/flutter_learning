@@ -12,7 +12,7 @@ void main() {
           body: Center(
             child: Image(
 
-              image: NetworkImage('https://github.com/square/picasso/blob/master/website/static/sample.png'),
+              image: AssetImage('images/diamond.png'),
             ),
           ),
     ),
